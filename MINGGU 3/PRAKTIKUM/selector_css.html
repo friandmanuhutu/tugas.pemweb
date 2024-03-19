@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector CSS</title>
+    <!-- titik untuk class
+         hastag untuk id     -->
+    <style>
+      * {
+        color: burlywood;
+        background-color: bisque;
+      }
+      .font-xs {
+        color: saddlebrown;
+        font-size: 24px;
+      }
+      .judul {
+        color: crimson;
+        font-size: 16px;
+      }
+      p {
+        color: hotpink;
+        font-size: 12px;
+      }
+      p.success {
+        color: slateblue;
+        font-size: 24px;
+      }
+      p#danger {
+        color: slategray;
+        font-size: 24px;
+      }
+      .hthree {
+        color: cyan;
+        text-decoration: underline;
+      }
+      h3 {
+        color: cornflowerblue;
+        text-decoration: line-through;
+      }
+      span#penting {
+        color: slategray;
+        text-decoration: line-through;
+      }
+      div p {
+        font-size: large;
+      }
+      div section p {
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="font-xs">Halo dunia</h1>
+    <p>paragraf one</p>
+    <hr />
+    <h2 class="judul">ini judul</h2>
+    <p>second paragraph</p>
+    <hr />
+    <h3 class="hthree">heading three</h3>
+    <p id="danger">invalid login</p>
+    <hr />
+    <h3>this is heading three</h3>
+    <p class="success">login success</p>
+    <hr />
+    <a>link not active</a>
+    <a href="https://us05web.zoom.us/postattendee?mn=oxqrAHidXaXCdGWXcLjPG6MAP23d1TWDqhbi.NGc2n127yTCILmQT" target="_blank">link active</a>
+    <p>Lorem, ipsum dolor <span id="penting">PemWeb Informatika</span> sit amet consectetur adipisicing elit.</p>
+
+    <div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, nesciunt saepe! Hic at quasi delectus autem quisquam quis perferendis rerum praesentium, velit architecto dolorem eos ut maiores sunt voluptatum nesciunt!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est tenetur necessitatibus nulla tempora vero, dolore quod, dolor voluptatum minus maiores obcaecati id atque sit inventore. Iusto, cupiditate. Quae, ad!</p>
+
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, tempora necessitatibus dolores pariatur quos voluptates impedit repellendus ratione fugit ad, saepe blanditiis dignissimos voluptatem numquam culpa atque dolorum,
+          deserunt adipisci?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus tempore natus, assumenda debitis blanditiis, deserunt quibusdam magni voluptate excepturi fugit maxime at mollitia commodi voluptatem dolorum dolore exercitationem
+          non quo?
+        </p>
+      </section>
+    </div>
+  </body>
+</html>

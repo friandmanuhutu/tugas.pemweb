@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Background</title>
+    <style>
+      /* Background Warna */
+      body {
+        background-color: #50727b;
+      }
+      /* Background Gambar */
+      .gambar-background {
+        background-image: url('https://i.pinimg.com/originals/13/6f/f6/136ff6626f5fd0e61764d67a9d3ab28c.jpg'); /* Ganti dengan URL gambar yang sesuai */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh; /* 100% tinggi viewport */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white; /* Warna teks putih agar kontras dengan gambar */
+        text-align: center;
+      }
+
+      /* Background Campuran */
+      .campuran-background {
+        background: linear-gradient(to left, #030637, #3c0753, #720455, #910a67), url('gambar_background.jpg'); /* Ganti dengan URL gambar yang sesuai */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh; /* 100% tinggi viewport */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white; /* Warna teks putih agar kontras dengan gambar */
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Background Warna -->
+    <div>
+      <h1>Background Warna</h1>
+      <p>Ini adalah contoh background dengan warna abu-abu muda.</p>
+    </div>
+    <br>
+
+
+    <!-- Background Gambar -->
+    <div class="gambar-background">
+      <h1>Background Gambar</h1>
+      <p>Ini adalah contoh background dengan gambar.</p>
+    </div>
+    <br />
+    <!-- Background Campuran -->
+    <div class="campuran-background">
+      <h1>Background Campuran</h1>
+      <p>Ini adalah contoh background dengan campuran warna dan gambar.</p>
+    </div>
+  </body>
+</html>
