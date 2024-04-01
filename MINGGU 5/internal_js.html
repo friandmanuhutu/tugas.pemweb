@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <title>Belajar JavaScript: Internal JS</title>
+  </head>
+  <body>
+    <button id="myButton">Click me!</button>
+    <h1 id="myH1"></h1>
+    <script>
+      /*  saat tombol dengan ID "myButton" diklik.
+       Metode addEventListener digunakan untuk menambahkan event listener ke tombol tersebut. 
+       Ketika tombol diklik, fungsi panjang dilampirkan ke event click. 
+       Fungsi panjang ini secara langsung mengubah konten dari elemen dengan ID "myH1" menjadi "Hello World". */
+      document.getElementById('myButton').addEventListener('click', () => (document.getElementById('myH1').innerHTML = 'Hello World'));
+    </script>
+  </body>
+</html>
