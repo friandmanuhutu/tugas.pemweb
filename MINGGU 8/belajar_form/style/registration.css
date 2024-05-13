@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  #header {
+    text-align: center;
+  }
+  
+  #logo {
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+  }
+
+
+  .kemampuan-dasar td {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .kemampuan-dasar label {
+    margin-top: 6px;
+    margin-left: 3px;
+    padding-right: 30px;
+  }
+  
+  
+  legend {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  textarea {
+    width: 105%;
+  }
+
+  .tanggal-lahir {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tanggal-lahir select {
+    padding-right: 5px;
+  }
+
+  select, 
+  #student_birth_date,
+  #student_birth_month,
+  #student_birth_year {
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .gender-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  .gender-container label {
+    padding: 10px 10px 0px 0px;
+  }
+
+
+  input[type="radio"]{
+    
+    cursor: pointer;
+  }
+
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="file"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #41B06E;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0A6847;
+  }
+
+  input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #C40C0C;
+    color: #fff;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #8B322C;
+    color: #fff;
+  }
